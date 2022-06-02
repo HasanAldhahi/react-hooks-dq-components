@@ -5,6 +5,7 @@ import Search from "./Search.js";
 import MenuLinks from "./MenuLinks.js";
 import Logo from "./Logo.js"
 import GenrePicker from "./GenrePicker.js";
+import MainContent from "./MainContent.js";
 
 
 
@@ -15,8 +16,9 @@ function App() {
   return (<div className="app-container">
 
     <SideMenu></SideMenu>
-    <TopMenu></TopMenu>
-    <GenrePicker></GenrePicker>
+    {/* <TopMenu></TopMenu> */}
+    {/* <GenrePicker></GenrePicker> */}
+    <MainContent ></MainContent>
 
   </div>
 
